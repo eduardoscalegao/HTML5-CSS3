@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{font-family: monospace; 
+            background-color: black;
+            color: darkorange;
+            font-size: 1.3em;}
+
+        header{
+            background-color: rgb(31, 30, 30);
+            text-align: center;
+            padding: 3px;
+            box-shadow: 5px 8px 7px 0px #3b3939;
+        }
+        nav > a{text-decoration: none;
+        color: white;
+        margin: 15px; }
+            nav > a::after {content: ' [LINK]'; font-size: 14px; ;}
+            nav > a:hover {text-decoration: underline; color: rgb(14, 14, 172); }
+
+            aside{background-color: lightgrey; width: 300px; color: darkgoldenrod; border-radius: 10px 0px;}
+
+        footer{
+            width: 450px;
+            height: 30px;
+            background-color: lightcyan;
+            font-weight: bolder;
+            margin: auto;
+            padding: 6px;
+            text-decoration: underline;
+            text-align: center;
+        }
+            
+    </style>
+</head>
+<body>
+    <header>
+<h1>Meu Site</h1>
+<nav>
+    <a href="#">Fontes do artigo sobre esportes</a> <a href="#">Fontes do artigo sobre saúde</a> <a href="#">Fontes do artigo sobre política</a>
+</nav>
+    </header>
+
+    <main>
+<section>
+    <h2>Esportes</h2>
+    <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis delectus, dicta perspiciatis nesciunt pariatur dolorum corrupti quod provident deleniti eveniet commodi minima cupiditate, eos quasi esse quidem aliquid. Laborum?</p>
+        <aside>escrito por mim mesmo</aside>
+    </article>
+        <h2>Saúde</h2>
+        <article>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum incidunt quo adipisci laborum vitae quaerat sint minus, quidem atque tempore nostrum repudiandae, dolorum neque voluptates ut, similique quisquam necessitatibus iste.</p>
+            <aside>escrito por mim mesmo</aside>
+        </article>
+        <h2>Política</h2>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsum, quis adipisci commodi, quas eaque tenetur asperiores ab explicabo fugiat sed qui est illo numquam magnam velit! Laboriosam, pariatur! Aspernatur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt dignissimos illum ex fugiat blanditiis distinctio ipsum voluptatibus veritatis esse? Sapiente, in esse animi debitis soluta totam tenetur nemo ipsa doloremque?</p> <aside>escrito por mim mesmo</aside>
+        </article>
+   
+</section>
+
+    </main>
+
+    <footer>
+site desenvolvido por @Eduardo.s_calegao
+
+    </footer>
+
+
+</body>
+</html>

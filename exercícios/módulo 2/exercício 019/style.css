@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{background-color:#d6fde9; font-family: arial, sans-serif;}
+h1{color: rgb(255, 241, 241);text-align: center; font-size: 3em; background-color: #0B3612; padding: 5px;}
+h2{color: rgb(64, 92, 64);}
+h2#principal{ font: normal 2em Arial; width: 420px; color: #0B3612;}
+h2#secundário{ font: normal 2em Arial; width: 420px; color: #0B3612;}
+h3{color: #196b2b}
+p{font: normal 1.4em Arial; text-align: justify;font-family: monospace ;color: #0B3612}
+
+.basico{color:#A8651B}
+
+.intermediario{color:#A83513 }
+
+.avançado{color:#F55727  }
